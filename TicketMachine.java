@@ -12,6 +12,7 @@
 public class TicketMachine
 {
     // The price of a ticket from this machine.
+    //mas comentarios espina de pescado
     private int price;
     // The amount of money entered by a customer so far.
     private int balance;
@@ -54,7 +55,14 @@ public class TicketMachine
     {
         balance = balance + amount;
     }
-
+  
+    public int getTotal(){
+    
+        return total;
+    
+    }
+    
+    
     /**
      * Print a ticket.
      * Update the total collected and
