@@ -67,6 +67,10 @@ public class TicketMachine
      price = cost;    
     
     }
+    /**
+     * introducimos una cadena de texto pidiendo que introduzca el amount correcto
+     */
+    
     
     public void prompt(){
     
@@ -74,6 +78,10 @@ public class TicketMachine
     
     
     }
+    /**
+     * introducir el precio del ticket 
+     */   
+    
     
     public void showPrice(){
     
