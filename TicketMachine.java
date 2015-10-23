@@ -75,7 +75,11 @@ public class TicketMachine
     
     }
     
+    public void showPrice(){
     
+         System.out.println("the price of ticket is " + price + " cents");
+    
+    }
     
     
     /**
