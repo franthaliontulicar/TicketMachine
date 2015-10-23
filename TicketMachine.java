@@ -32,6 +32,20 @@ public class TicketMachine
     }
 
     /**
+     * un constructor que nos pide el precio
+     */
+    
+    public TicketMachine(int cost){
+    
+        price = cost;
+        balance = 0;
+        total = 0;
+    
+    } 
+    
+    
+    
+    /**
      * Return the price of a ticket.
      */
     public int getPrice()
