@@ -62,6 +62,12 @@ public class TicketMachine
     
     }
     
+    public void setPrice(int cost){
+    
+     price = cost;    
+    
+    }
+    
     
     /**
      * Print a ticket.
