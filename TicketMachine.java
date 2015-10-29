@@ -124,4 +124,12 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    /**
+     * sacamos toda la reacaudacion
+     */
+    public void empty(){
+        
+     total = 0;      
+     
+    }
 }
